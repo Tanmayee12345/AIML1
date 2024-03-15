@@ -1,0 +1,26 @@
+{
+  "builds": [
+      {
+          "src":"app.py",
+          "use":"@vercel/python"
+      }
+  ],
+  "routes": [
+      {
+          "src":"/(.*)", 
+          "dest":"app.py"
+      }
+  ]
+} 
+
+
+
+
+
+// echo "# AIML1" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/Tanmayee12345/AIML1.git
+// git push -u origin main
